@@ -8,7 +8,7 @@ body{
 	width: 1320px;
 	margin: 0 auto;
 }
-content .container{
+.content .container{
 	display: flex;
 }
 .row{
@@ -35,31 +35,30 @@ nav svg{
 .row1{
 	margin: 0 15px;
 }
-.section1{
+.cell-blue{
 	height: 350px;
 	width: 1000px;
-	margin-top: 60px;
 	border-radius: 20px;
 	background: #b7dcff;
 	color: #0084ff;
 }
-.section1 img{
+.cell-blue img{
 	position: absolute;
-	left: 520px;
-    top: -100px;
+	right: 70px;
+    bottom: 0;
     height: 370px;
 }
-.section1 h2{
+.cell-blue h2{
 	font-size: 30px;
 	margin: 40px 0;
 }
-.section1 content{
+.cell-blue content{
 	line-height: 30px;
 	font-size: 20px;
 	color: #3279bb;
 }
-.section1 button{
-	margin-top: 20px;
+.cell-blue button{
+	margin-top: 37px;
 	padding: 15px 50px;
 	font-size: 15px;
 	font-weight: bold;
@@ -69,11 +68,9 @@ nav svg{
 	color: #fff;
 }
 
-.container .container2{
-	position: relative;
-	left: 50px;
-	top: 40px;
-	width: 500px;
+#features .cell-blue{
+    position: relative;
+	padding: 35px;
 }
 .container3{
 	padding: 35px;
