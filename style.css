@@ -42,6 +42,10 @@ nav svg{
 	background: #b7dcff;
 	color: #0084ff;
 }
+#features .cell-blue .left{
+    width: 500px;
+
+}
 .cell-blue img{
 	position: absolute;
 	right: 70px;
