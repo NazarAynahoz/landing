@@ -109,9 +109,12 @@ nav svg{
 	line-height: 30px;
 }
 .w33{
-    width: 33.33%;
+    width: calc(33.33% - calc(44px / 3));
     border: 11px solid transparent;
     box-sizing: border-box;
+}
+.mlr {
+    margin: 0 22px;
 }
 .cell-red{
 	text-align: center;
