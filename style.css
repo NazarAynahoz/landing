@@ -88,7 +88,7 @@ nav svg{
 	padding: 35px;
 }
 .cell-green{
-    padding: 35px;
+    padding: 8px;
 	text-align: center;
 	margin-left: 20px;
 	width: calc(33.33% - 10px);
@@ -98,13 +98,16 @@ nav svg{
 	background: #c9efda;
 }
 .cell-green h2{
+    margin-top: 20px;
 	font-size: 30px;
 	color: #54c788;
 }
 .cell-green svg{
+    margin-top: 20px;
 	width: 100px;
 }
 .cell-green .content{
+    margin-top: 20px;
 	font-size: 20px;
 	line-height: 30px;
 }
@@ -125,25 +128,62 @@ nav svg{
 	color: #ff8a8a;
 }
 .cell-red h2{
+    margin-top: 20px;
 	font-size: 30px;
 }
 .cell-red svg{
+    margin-top: 20px;
 	width: 100px;
 }
 .cell-red .content{
+    margin-top: 20px;
 	font-size: 20px;
 	line-height: 30px;
 	color: #9e5d5d;
 }
-.section4{
+.cell-orange{
 	text-align: center;
-	margin-top: 20px;
-	margin-left: 40px;
-	width: 450px;
+	justify-content: center;
 	height: 350px;
 	border-radius: 20px;
-	background: #ffd2d2;
-	color: #ff8a8a;
+	background: #ffe7c4;
+	color: #ffddab;
 }
+.cell-orange svg{
+    margin-top: 20px;
+    width: 100px;
+}
+.cell-orange h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color:rgb(255, 193, 102);
+}
+.cell-orange .content{
+    margin-top: 20px;
+    font-size: 20px;
+	line-height: 30px;
+    color:#a68454;
+}
+.cell-drk-blue{
+    text-align: center;
+	justify-content: center;
+	height: 350px;
+	border-radius: 20px;
+	background: #d5d3f5;
+	color: #9693e6;
+}
+.cell-drk-blue svg{
+    margin-top: 20px;
+    width: 100px;
+}
+.cell-drk-blue .content{
+    margin-top: 20px;
+     font-size: 20px;
+	line-height: 30px;
+	color: #676597;
+}
+.cell-drk-blue h2{
+    margin-top: 20px;
+    font-size: 30px;
 
 
