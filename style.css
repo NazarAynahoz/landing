@@ -1,4 +1,3 @@
-
 body{
 	margin: 0;
 	font-family: PT Sans, sans-serif;
@@ -53,7 +52,6 @@ nav svg{
 }
 #features .cell-blue .left{
     width: 50%;
-
 }
 .cell-blue img{
 	position: absolute;
@@ -185,5 +183,21 @@ nav svg{
 .cell-drk-blue h2{
     margin-top: 20px;
     font-size: 30px;
+}
+
+/* Adaptive styles */
+@media (max-width: 1200px) {
+	#features .cell-blue .left {
+		width: 100%;
+		text-align: center;
+	}
+	.cell-blue img {
+		display: none;
+	}
+}
+@media (max-width: 992px) {
+	.cell-blue {
+		width: 100%;
+	}
 }
 
