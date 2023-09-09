@@ -220,18 +220,14 @@ nav svg{
     width: 90%;
     }
  }
- /*section2*/
 
-.benefits{
+ /* section2 */
+#benefits{
     margin-top: 20px;
     font-family: Arial, sans-serif;
     color: rgb(150, 147, 230);
 }
-.benefits .container{
-	max-width: 1320px;
-	margin: 0 auto;
 
-}
 .flex-container{
 	display: flex;
 	justify-content: space-around;
@@ -246,11 +242,6 @@ nav svg{
 	min-height: 350px;
 	border-radius: 10px;
 	background: rgb(244, 243, 253);
-}
-@media screen and (max-width: 960px) {
-	.container {
-		width: 100%;
-	}
 }
 .c1{
 	margin: 0 0 0 10px;
@@ -271,7 +262,7 @@ nav svg{
     color: rgb(244, 243, 253);
     font-size: 18px;
 }
-.benefits h1{
+#benefits h1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -281,7 +272,7 @@ nav svg{
 	color: rgb(244, 243, 253);
 	background: rgb(150, 147, 230);
 }
-.benefits h2{
+#benefits h2{
     font-weight: bold;
 	font-size: 40px;
 	margin: 5px;
