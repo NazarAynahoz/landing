@@ -80,7 +80,7 @@ nav svg{
 }
 
 #features .row {
-    margin-top: 60px;
+    margin-top: 20px;
 }
 #features .cell-blue{
     position: relative;
@@ -215,9 +215,78 @@ nav svg{
 	#features .row:nth-child(2) {
         margin-top: 0px;
 	}
+}
+ @media (max-width: 400px) {
+ .container {
+    width: 90%;
+    }
+ }
+ /*section2*/
 
-
-
+.benefits{
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    color: rgb(150, 147, 230);
+}
+.benefits .container{
+	max-width: 1320px;
+	margin: 0 auto;
 
 }
-
+.flex-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background: rgb(150, 147, 230);
+}
+.flex-item{
+	position: relative;
+	margin: 5px;
+	width: 400px;
+	height: 350px;
+	border-radius: 10px;
+	background: rgb(244, 243, 253);
+}
+@media screen and (max-width: 960px) {
+	.container {
+		width: 100%;
+	}
+}
+.c1{
+	margin: 0 0 0 10px;
+	margin-top: 22px;
+	font-size: 18px;
+}
+.btn-more{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 45px;
+    width: 90px;
+    background: rgb(150, 147, 230);
+    color: rgb(244, 243, 253);
+    font-size: 18px;
+}
+.benefits h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	margin: 0;
+	color: rgb(244, 243, 253);
+	background: rgb(150, 147, 230);
+}
+.benefits h2{
+    font-weight: bold;
+	font-size: 40px;
+	margin: 5px;
+}
+.flex-item h3{
+    font-weight: bold;
+	margin: 5px;
+	margin-top: 28px;
+}
