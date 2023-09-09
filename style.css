@@ -31,6 +31,7 @@ header{
 }
 nav{
     width: 24px;
+	cursor: pointer;
 }
 nav svg{
 	justify-content: space-between;
