@@ -2,11 +2,6 @@ body{
 	margin: 0;
 	font-family: PT Sans, sans-serif;
 }
-.container{
-	position: relative;
-	width: 1320px;
-	margin: 0 auto;
-}
 .content .container{
 	display: flex;
 }
@@ -184,7 +179,11 @@ nav svg{
     margin-top: 20px;
     font-size: 30px;
 }
-
+@media (max-width: 400px) {
+	.container {
+		width: 90%;
+	}
+}
 /* Adaptive styles */
 @media (max-width: 1200px) {
 	#features .cell-blue .left {
@@ -213,7 +212,7 @@ nav svg{
 	    margin-right: 0;
 	}
 	#features .row:nth-child(2) {
-        margin-top: 0px;
+        margin-top: 0;
 	}
 }
  @media (max-width: 400px) {
@@ -242,8 +241,9 @@ nav svg{
 .flex-item{
 	position: relative;
 	margin: 5px;
+	padding: 15px;
 	width: 400px;
-	height: 350px;
+	min-height: 350px;
 	border-radius: 10px;
 	background: rgb(244, 243, 253);
 }
@@ -277,6 +277,7 @@ nav svg{
 	align-items: center;
 	height: 70px;
 	margin: 0;
+	padding: 50px 0;
 	color: rgb(244, 243, 253);
 	background: rgb(150, 147, 230);
 }
