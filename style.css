@@ -314,14 +314,29 @@ nav svg{
         width: 100%;
     }
 }
-.about_us{
+#about-us{
     margin-top: 20px;
     display: flex;
 }
-.about_us h1{
+#about-us h1{
     font-weight: 700;
     font-size: 4.5rem;
     color: #9693e6
+}
+#about-us .right .row {
+    justify-content: center;
+}
+#about-us .image{
+    width: 265px;
+    height: 265px;
+    margin-right: 20px;
+    background-image: url('https://images01.nicepage.com/c461c07a441a5d220e8feb1a/b6f0236899d35e4fbe25a088/5.jpg?version=');
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+#about-us .quote {
+    width: 64px;
 }
 .left{
 
